@@ -14,6 +14,10 @@ The RL agent can only control the horizontal force on the cart and must learn to
 
 ## Converting OnShape to URDF
 
+The double pendulum robot was designed in OnShape using simple sketches and extrusions. The URDF file and associated assets (STL files) are already included in this repository at `DoublePendulumURDF/robot.urdf`.
+
+If you want to create your own design or modify the existing one, you can use the following tools to convert your OnShape CAD model to URDF format.
+
 ### Using onshape-to-robot
 
 Use [onshape-to-robot](https://onshape-to-robot.readthedocs.io/en/latest/index.html) to convert your OnShape design to URDF format.

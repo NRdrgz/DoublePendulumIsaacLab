@@ -50,47 +50,6 @@ python -m ensurepip --default-pip
 ./isaaclab.sh -p scripts/tutorials/03_envs/create_cartpole_base_env.py
 ```
 
-# How to Install Isaac Sim - Standalone
-
-This guide covers the installation of Isaac Sim GUI on Linux systems.
-
-## Prerequisites
-- Linux operating system
-- Follow the official tutorial: [Isaac Sim Installation Guide](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/index.html)
-
-## Installation Steps
-
-### 1. Download Isaac Sim
-- Find the download link at: [Quick Install Guide](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/quick-install.html)
-
-### 2. Extract and Setup
-- Unzip the downloaded file into a folder named `isaac-sim` located at the root directory
-- Run the post-installation script:
-  ```bash
-  ./post_install.sh
-  ```
-- Run the Isaac Sim selector:
-  ```bash
-  ./isaac-sim.selector.sh
-  ```
-
-### 3. Launch Isaac Sim
-- In the Isaac Sim Application Selector window, click **Start**
-- A window will open with Isaac Sim running
-
-## Quick Test Setup
-
-To verify the installation works correctly:
-
-1. **Create an Environment**
-   - Select `Create > Environment > Simple Room`
-
-2. **Add a Robot**
-   - Select `Create > Robots > Franka Emika Panda Arm`
-
-3. **Run Simulation**
-   - Click the play button (arrow) on the left side to start the simulation
-
 # Isaac Sim vs Isaac Lab
 
 - **Isaac Sim**: Omniverse‑based robotics simulation application.
