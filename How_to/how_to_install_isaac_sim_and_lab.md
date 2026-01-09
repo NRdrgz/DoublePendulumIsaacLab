@@ -10,12 +10,12 @@ source env_isaaclab/bin/activate
 
 ### 2. Install Isaac Sim (pip)
 ```bash
-pip install "isaacsim[all,extscache]==5.1.0" --extra-index-url https://pypi.nvidia.com
+uv pip install "isaacsim[all,extscache]==5.1.0" --extra-index-url https://pypi.nvidia.com
 ```
 
 ### 3. Install CUDA-enabled PyTorch
 ```bash
-pip install -U torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cu128
+uv pip install -U torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cu128
 ```
 
 ### 4. Verify Isaac Sim CLI is available
